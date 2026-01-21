@@ -13,6 +13,7 @@ public class Holiday {
 
     private String holidayName;
     private LocalDate holidayDate;
+    private String holidayType;
 
     // --- MULA KOD GETTER DAN SETTER ---
 
@@ -39,6 +40,9 @@ public class Holiday {
     public void setHolidayDate(LocalDate holidayDate) {
         this.holidayDate = holidayDate;
     }
+    
+    public String getHolidayType() { return holidayType; }
+    public void setHolidayType(String holidayType) { this.holidayType = holidayType; }
 
     // --- TAMAT KOD GETTER DAN SETTER ---
 }
